@@ -1,0 +1,105 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.content {
+   background: url(https://img.freepik.com/free-vector/blue-light-sparkles-background-with-copyspace_1017-20091.jpg?size=626&ext=jpg) no-repeat;
+   -moz-background-size:100%;
+   -webkit-background-size:100%;
+   -o-background-size:100%;
+   height: 100vh;
+}
+
+h1 {
+    text-align: center;  
+    padding-top: 65px;
+    color:white;
+    font-size: 60px;
+    user-select: none;
+    transition: color 0.3s linear, font-size 0.3s linear;
+    margin: 0 auto;
+}
+
+h1:hover {
+    color: tomato;
+    font-size: 70px;
+
+}
+
+.menu {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+width: 50%;
+}
+
+ul {
+    margin-top: 200px;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s linear;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+li a:hover {
+    
+    background-color:crimson;
+}
+
+.button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.button a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color .2s ease-in;
+}
+
+.button a:hover {
+    color: rgb(235, 71, 53);
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    width: 600px;
+    padding-top: 158px;
+    color: white;
+
+}
+.page2 {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.page2 p {
+    max-width: 50%;
+    text-align: justify;
+
+}
+
+.bottom {
+    text-align: center;
+    background-color: #02153F;
+    color: whitesmoke;
+}
